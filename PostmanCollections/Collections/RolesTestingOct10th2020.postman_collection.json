@@ -1,0 +1,234 @@
+{
+	"info": {
+		"_postman_id": "2f0f6283-b0ff-4d4a-95cf-bc36e0a34094",
+		"name": "RolesTestingOct10th2020",
+		"description": "https://trello.com/c/eG6QP4TB/168-roles-documentation-and-testing\r\n\r\nThis collection allows you to test if a user can access endpoints as per their roles. ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/api/RandomQuotes/GetHoldOfthem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/RandomQuotes/GetHoldOfthem",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"RandomQuotes",
+						"GetHoldOfthem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/User/Hi",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/User/Hi",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"User",
+						"Hi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/Moderator/Hi",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/Moderator/Hi",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"Moderator",
+						"Hi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/Admin/Hi",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/Admin/Hi",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"Admin",
+						"Hi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/RandomQuotesSecure/GetHoldOfthem",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/RandomQuotesSecure/GetHoldOfthem",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"RandomQuotesSecure",
+						"GetHoldOfthem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/RandomStuffGeneratorAPIServerDetails/claims",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/RandomStuffGeneratorAPIServerDetails/claims",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"RandomStuffGeneratorAPIServerDetails",
+						"claims"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "a62b83a2-543a-4ce9-82b5-44dc012836db",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "ab479f7e-ba57-488c-bc75-3543aacae18b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "ed4e41b0-2c7c-44f3-8833-773a6acd034c",
+			"key": "BearerToken",
+			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im5VU3l1ZDJBc201NzFtYzVKWmpwYyJ9.eyJpc3MiOiJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZjgxNzBkOTg4YTI1YTAwNmJiZGExY2EiLCJhdWQiOlsiaHR0cHM6Ly90aGVjaGFsYWthcy5jb20iLCJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2MDIzMjA2NjgsImV4cCI6MTYwMjQwNzA2OCwiYXpwIjoiYVo3b3piQVYySGk3V1drR3NOd1ZSWm9ZYjgyeGdORjYiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIn0.o2EBb2VXN9xd2YSr-LOjor4S29shGXlA8jPQMguNUR1cSVLepCjhMNZMtGSZQ3aYnPkgSZYFcdZI7_Zx0AX9qI5JGwyi7Bn4FKBIXiz6jb8cv6YaKQyTs_kETVazG6xRn3uQqI_1i1JojZ44Hr7_zJOYiMX5KhQNx7VR_JvhJU_L_bs_sWPDBIlNYRpakCNOhU-VB3O8RlKOTQblj8bQ4jZhlZbNW9R5gEdxU6QfMyApRA0tAa_KGrIzvaw523yzVDbB9DW3uFL86k3JO5qiupNa7YKiMehAL_h-8ccrlAFK5wOtcsT9COFsWImQS0-CfxMeuPYs_BpxTr6EBRGdlQ"
+		},
+		{
+			"id": "89c825ac-5632-405b-8f47-2e6b950f6da5",
+			"key": "apiserverhost",
+			"value": "https://localhost:44372"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "3cf7d7dc-817f-4ee3-babd-f24625b4d438",
+		"name": "Basic Set",
+		"description": "This is a basic set. \r\n\r\nIt does the following.\r\n\r\n1) GET Call an open, unauthorized endpoint.\r\n2) GET Call an authorized endpoint.\r\n3) GET User Claims",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/api/RandomQuotes/GetHoldOfthem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/RandomQuotes/GetHoldOfthem",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"RandomQuotes",
+						"GetHoldOfthem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/RandomQuotesSecure/GetHoldOfthem",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/RandomQuotesSecure/GetHoldOfthem",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"RandomQuotesSecure",
+						"GetHoldOfthem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/RandomStuffGeneratorAPIServerDetails/claims",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/RandomStuffGeneratorAPIServerDetails/claims",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"RandomStuffGeneratorAPIServerDetails",
+						"claims"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "31407c1b-11e6-4b2f-972f-c65bbf71dbfa",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "55639a46-7e6b-485d-8a0b-1f1ac4c8cf98",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "47d5cd41-877f-40a8-980b-d179e29fbd70",
+			"key": "BearerToken",
+			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im5VU3l1ZDJBc201NzFtYzVKWmpwYyJ9.eyJpc3MiOiJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1ZjgxNzBkOTg4YTI1YTAwNmJiZGExY2EiLCJhdWQiOlsiaHR0cHM6Ly90aGVjaGFsYWthcy5jb20iLCJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2MDIzMjA2NjgsImV4cCI6MTYwMjQwNzA2OCwiYXpwIjoiYVo3b3piQVYySGk3V1drR3NOd1ZSWm9ZYjgyeGdORjYiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIn0.o2EBb2VXN9xd2YSr-LOjor4S29shGXlA8jPQMguNUR1cSVLepCjhMNZMtGSZQ3aYnPkgSZYFcdZI7_Zx0AX9qI5JGwyi7Bn4FKBIXiz6jb8cv6YaKQyTs_kETVazG6xRn3uQqI_1i1JojZ44Hr7_zJOYiMX5KhQNx7VR_JvhJU_L_bs_sWPDBIlNYRpakCNOhU-VB3O8RlKOTQblj8bQ4jZhlZbNW9R5gEdxU6QfMyApRA0tAa_KGrIzvaw523yzVDbB9DW3uFL86k3JO5qiupNa7YKiMehAL_h-8ccrlAFK5wOtcsT9COFsWImQS0-CfxMeuPYs_BpxTr6EBRGdlQ"
+		},
+		{
+			"id": "f376d65b-e399-4a31-bec6-217c516f873c",
+			"key": "apiserverhost",
+			"value": "https://localhost:44372"
+		}
+	],
+	"protocolProfileBehavior": {}
+}

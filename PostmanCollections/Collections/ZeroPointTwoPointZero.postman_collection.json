@@ -1,0 +1,326 @@
+{
+	"info": {
+		"_postman_id": "8e04d025-e574-4a4c-a2fa-6d2e287a0170",
+		"name": "ZeroPointTwoPointZero",
+		"description": "This contains API EndPoints that were tested in Postman, with respect to version update ZeroPointTwoPointZero aka 0.2.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "UserNotLoggedIn - GetHoldOfthem",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/UserNotLoggedIn/GetHoldOfthem",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"UserNotLoggedIn",
+						"GetHoldOfthem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User - GetASpecificQuote",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"quoteIdentifier\": \"20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{apiserverhost}}/api/User/GetASpecificQuote",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"User",
+						"GetASpecificQuote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User - Hi",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/User/Hi",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"User",
+						"Hi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TheOthers - claims",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/TheOthers/claims",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"TheOthers",
+						"claims"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProjectDetails - Hi",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/ProjectDetails/Hi",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"ProjectDetails",
+						"Hi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Moderator - GetAllQuotes",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/Moderator/GetAllQuotes",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"Moderator",
+						"GetAllQuotes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Moderator - Hi",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/Moderator/Hi",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"Moderator",
+						"Hi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Admin - Hi",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{BearerToken}}",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "{{{{Token}}}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{apiserverhost}}/api/Admin/Hi",
+					"host": [
+						"{{apiserverhost}}"
+					],
+					"path": [
+						"api",
+						"Admin",
+						"Hi"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "94b0f869-0131-4dd8-9661-fd727f0fa482",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b3df3704-b613-4c63-87aa-2ab4fb52ce28",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "7db95be8-576f-426b-aab3-8f40a90b2de3",
+			"key": "BearerToken",
+			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im5VU3l1ZDJBc201NzFtYzVKWmpwYyJ9.eyJpc3MiOiJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1Zjc5NzNmYjYzMDAyNDAwNzE5NDNiNzIiLCJhdWQiOlsiaHR0cHM6Ly90aGVjaGFsYWthcy5jb20iLCJodHRwczovL3JhbmRvbXF1b3RlZXhwZXJpbWVudGFsLnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2MDI3Njk4OTksImV4cCI6MTYwMjg1NjI5OSwiYXpwIjoiYVo3b3piQVYySGk3V1drR3NOd1ZSWm9ZYjgyeGdORjYiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIHJlYWQ6cHJvZmlsZWRldGFpbHMgcmVhZDpzZWVhbGxxdW90ZXMgcmVhZDpzaXRlc3RhdHMifQ.WPfg7_I-UrcwiIewtYxeX-67BnyGPtME0aBCNvFmt0orEimeXZArtefQfBxgLKLZUKQA0ldqs__xvFHcFpgUctiCzlykUmjcWycG8dpk_79LshLIcgf8GgODdnON_8U67jJjenFargDa8n1CQGaVJXRlLbPUzMLiqIDsZMjIk7OoC9W7LAM2koZPV22BEAshUaDgQ-1RbTcCOTgVfgw6W2xDRZ2obv1A3dcSa3YdgpdyaA3ZqCROPxEb-WVy06nOyPAnI_rBAj5P_JuCLgafZx1QA4md1eAp32yzX7dNH76or1ZlRNioxpF8q0Pg3WfjVx84dXckxbVOXowiFEuyfw"
+		},
+		{
+			"id": "2a6f2e41-e5e0-4117-b991-5c69ec6aaf59",
+			"key": "apiserverhost",
+			"value": "https://localhost:44372"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
