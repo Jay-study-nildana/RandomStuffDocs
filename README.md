@@ -58,6 +58,10 @@ Ultimately, this project is proof that I can build all these things. So, if you 
 
 Perhaps, you are impressed, and you will hire me to do the same for your company's product or service. 
 
+# Current Version
+
+Current version changes and log [available here](VersionandChanges.md).
+
 # important note 
 
 This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
