@@ -8,25 +8,21 @@ At the point of writing this documentation, it only generates Quotes from famous
 
 I wanted a full stack project/service/api/app demo to showcase my developer skills and experience. This project is it.
 
-[Skip Ahead](projectidea/readme.md)
+# Current Version - 0.2.0
 
-# Target Audience
+Read about the current [version here](VersionandChanges.md)
 
-This documentation is as comprehesive as I can humanly make it. It's primarily meant for other developers and technical audience. 
+# Table Of Contents
 
-* Clients, who wish to dig deeper, and find out if I have the technical chops that I claim to have when bidding for new projects and contracts.
-* These other developers could be my students who are taking classes with me and want to understand how this project was built.
-* Other developers who are looking to fork the public repositories to make their own improves and raise pull requests.
-
-# Self Note About Documentation
-
-* Once a folder and file is committed, dont modify it. 
-* That means, no moving around folders, changing file names and so on. 
-* Everything is interlinked with each other with relative links.
-* The Documentation folder, may be relocted, as it is.
-* add new folders, files, no problem. If required, link from an existing file.
-* No deleting of folders and file either. 
-* Contents inside the markdown files can be changed.
+* [API End Point](APIEndPoints/readme.md)
+* [API Server Technical](APIServer/readme.md)
+* [Auth0](Auth0/readme.md)
+* [Postman Collections](PostmanCollections/readme.md)
+* [React JS App](ReactJSApp/readme.md)
+* [Developer Tools](ToolsandThings.md/readme.md)
+* [Developer Life](developerlife/readme.md)
+* [Other Things](otherfiles/readme.md)
+* [Project Ideas](projectidea/readme.md)
 
 # Tell Me More
 
@@ -58,9 +54,13 @@ Ultimately, this project is proof that I can build all these things. So, if you 
 
 Perhaps, you are impressed, and you will hire me to do the same for your company's product or service. 
 
-# Current Version
+# Target Audience
 
-Current version changes and log [available here](VersionandChanges.md).
+This documentation is as comprehesive as I can humanly make it. It's primarily meant for other developers and technical audience. 
+
+* Clients, who wish to dig deeper, and find out if I have the technical chops that I claim to have when bidding for new projects and contracts.
+* These other developers could be my students who are taking classes with me and want to understand how this project was built.
+* Other developers who are looking to fork the public repositories to make their own improves and raise pull requests.
 
 # important note 
 

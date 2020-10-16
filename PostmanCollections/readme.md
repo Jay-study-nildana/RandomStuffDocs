@@ -1,9 +1,10 @@
 # Postman Collections
 
-Postman WorkSpace - Random Stuff Generator
+Ready to use Postman Collections. The file name corresponds to the version number of the project.
 
-* Basic Set.postman_collection.json - Basic starter template to get started and to create new collections.
-* RolesTestingOct10th2020.postman_collection.json - Test different roles like User, Moderator and Admin.
+Note : If you are reading on the github pages website (and not the github repo), click here to go directly to the repository folder.
+
+https://github.com/Jay-study-nildana/RandomStuffGeneratorExperimental/tree/main/Documentation/PostmanCollections/Collections
 
 # important note 
 

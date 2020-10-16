@@ -1,18 +1,15 @@
 # API End Points
 
-Here, you will find details of all the points.
+Additional notes about the API endpoints.
 
-# Swagger Documentation
+# Table Of Contents
 
-The API server already has built in API documentation. Use that for essential notes. I will add more and more details on that as development continues. 
-
-# Postman Documentation
-
-I have included additional notes as required, but usually Postman specific, along with the Postman collections. 
-
-# Essential developer notes
-
-* DO NOT DELETE ANY ENDPOINTS. They may have dependencies as this project is constantly evolving. Eventually, once the number of API endpoints become unmanageable or something, we will sit down and clean up. 
+* [Admin API EndPoints](AdminAPIEndPoints.md)
+* [Moderator API EndPoints](ModeratorAPIEndPoints.md)
+* [Project Details API EndPoints](ProjectDetailsAPIEndPoints.md)
+* [The Others API EndPoints](TheOthersAPIEndPoints.md)
+* [User API EndPoints](UserAPIEndPoints.md)
+* [User Not Logged In API EndPoints](UserNotLoggedInAPIEndPoints.md)
 
 # important note 
 

@@ -2,6 +2,10 @@
 
 Details about the react app comes here. 
 
+# Table Of Contents
+
+* [Common Problems and Solutions](ProblemsandSolutions/readme.md)
+
 # Important links
 
 * https://auth0.com/docs/architecture-scenarios/spa-api
