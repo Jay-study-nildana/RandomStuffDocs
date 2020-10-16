@@ -4,7 +4,7 @@ Welcome to the Random Stuff Generator.
 
 At the point of writing this documentation, it only generates Quotes from famous and not so famous people.
 
-Repository Available here - https://github.com/Jay-study-nildana/RandomStuffDocs
+Repository of this documentation,  [available here](https://github.com/Jay-study-nildana/RandomStuffDocs)
 
 # TLDR
 
@@ -80,4 +80,4 @@ This documentation is as comprehesive as I can humanly make it. It's primarily m
 
 This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
 
-I can be reached through my website - https://thechalakas.com/
+I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
