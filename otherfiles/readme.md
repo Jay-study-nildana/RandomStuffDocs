@@ -1,13 +1,11 @@
-# Tools and Things
+# Other Things
 
-Here, I want to talk about tools and services that make all the coding and development happen. 
-
-For example, Visual Studio Code. And, Visual Studio 2019 or something online, like, codesandbox.io.
+This is where I put other files. 
 
 # Table Of Contents
 
-* [Postman](Postman.md)
-* [Prettier](prettier.md)
+* [Full Version and Change Log](VersionandChangeLog.md)
+* [Documentation Guidelines](documentationguidelines.md)
 
 # important note 
 

@@ -37,7 +37,7 @@ Fixes and Updates below.
 
 # Other Things
 
-* Something something.
+* GitHub Pages linking. not up and down linking. just top to bottom, root to leaf.
 * Something something.
 
 -----------------------------------------------------------------------------------
