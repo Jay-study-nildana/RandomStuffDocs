@@ -4,13 +4,11 @@ Welcome to the Random Stuff Generator.
 
 At the point of writing this documentation, it only generates Quotes from famous and not so famous people.
 
+Repository Available here - https://github.com/Jay-study-nildana/RandomStuffDocs
+
 # TLDR
 
 I wanted a full stack project/service/api/app demo to showcase my developer skills and experience. This project is it.
-
-# Current Version - 0.2.0
-
-Read about the current [version here](VersionandChanges.md)
 
 # Table Of Contents
 
@@ -23,6 +21,22 @@ Read about the current [version here](VersionandChanges.md)
 * [Developer Life](developerlife/readme.md)
 * [Other Things](otherfiles/readme.md)
 * [Project Ideas](projectidea/readme.md)
+
+# Current Version - 0.2.0
+
+Read about the current [version here](VersionandChanges.md).
+
+You can switch to a specific version by switching branches in the repository.
+
+# Repositories
+
+* [API Server](https://github.com/Jay-study-nildana/RandomStuffGenerator)
+* [React JS App](https://github.com/Jay-study-nildana/RandomStuffReactJSApp)
+
+# Deployments
+
+* [API Server](https://randomstuffgeneratorsep23.azurewebsites.net)
+* [React JS App](https://randomstuffreactjsappsept24.azurewebsites.net)
 
 # Tell Me More
 
