@@ -1,10 +1,6 @@
-# prettier
+# FrontEnd
 
-I really love this one. 
-
-Available here - https://prettier.io/
-
-I use this to make my code look properly indented. I love to make my code look clean and easy to read.
+A single app is available that serves all three customers. Depending on their login, to which they are attached roles, the app will change giving them appropriate options. 
 
 # important note 
 

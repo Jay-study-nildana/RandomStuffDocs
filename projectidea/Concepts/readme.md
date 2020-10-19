@@ -1,10 +1,10 @@
-# prettier
+# Concepts
 
-I really love this one. 
+You will find descriptions related to the many concepts utilized in this project. 
 
-Available here - https://prettier.io/
+# Table Of Contents
 
-I use this to make my code look properly indented. I love to make my code look clean and easy to read.
+* [Quote Identifier](QuoteIdentifier.md)
 
 # important note 
 

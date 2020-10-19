@@ -13,14 +13,20 @@ Specific details about each user, available below. Roles cascade downwards. For 
 
 Note - Each Role that is implemented, should have a Permission Item attached to it. The same Permission Item must be documented in the Permissions.md file.
 
+NOte 2 - As of this writing, one some of the below features are actually implemented. The best way to know what is implemented and what is not, is to check the VersionandChangeLog.md file which has the full version history of the entire project.
+
 # Non Logged In User
 
 * Can Visit Website and see public content.
 * See a Random Quote - PermissionItem1
 
+Linked Permissions
+
+* PermissionItem1
+
 # User
 
-* See Profile Page - PermissionItem2
+* See Profile Page
 * Save a Specific Quote as favorite
 * See more details about Quote that is displayed on Random Quote or from favorite list
 * See Stats, such as, i dont know. 
@@ -28,21 +34,28 @@ Note - Each Role that is implemented, should have a Permission Item attached to 
 * See messages from website.
 * Last Logged In
 
+Linked Permissions
+
+* PermissionItem2
+
 # Moderator
 
-* See All Quotes In The System - PermissionItem3
-* See All Quotes In The System - Pending Approval
-* See All Quotes In The System - Rejected
+* See All Quotes In The System
 * Quote CRUD - new and existing
 * See All Quotes In The System - Flagged
 
+Linked Permissions
+
+* PermissionItem3
+
 # Admin
 
-* Approve Quotes that are pending 
-* See All Users
-* See User Details
-* Change User Role
-* Site Stats like...i dont know. - PermissionItem4
+* Approve Quotes
+* Site Stats like...i dont know
+
+Linked Permissions
+
+* PermissionItem4
 
 # Privilege Response
 
@@ -64,6 +77,12 @@ Auth0 has many ways to manage permission and roles. In this project, I have deci
 * Roles have all the permissions required attached to them. 
 
 The thing about roles having all the permissions is important because, Auth0 allows a single user to have multiple roles. That is actually convenient. However, I want to make to manage roles permissions on my own. So, the end result is, each User has "exactly" one role, and the permissions are decided by this one role.
+
+In other words, a User simply cannot have more than Role. 
+
+However, this also means, the User Roles are built like a (Matryoshka doll)[https://en.wikipedia.org/wiki/Matryoshka_doll]. This means, I cannot have a role which is mix and match of specific permissions. That's okay. 
+
+As of now, I have clearly defined roles for the project, and the roles are essentially finalized for the entire life of the project. This is also the reason why, I have exactly one controller each, for each role. There is no overlap between endpoints between controllers. 
 
 # Roles Management on App Clients
 

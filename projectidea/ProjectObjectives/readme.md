@@ -1,10 +1,13 @@
-# prettier
+# Project Objectives
 
-I really love this one. 
+I have put some minor notes related to the primary objectives of this project.
 
-Available here - https://prettier.io/
+# Table Of Contents
 
-I use this to make my code look properly indented. I love to make my code look clean and easy to read.
+* [FrontEnd](FrontEnd.md)
+* [BackEnd](BackEnd.md)
+* [DevOps](DevOps.md)
+* [Infrastructure](Infrastructure.md)
 
 # important note 
 

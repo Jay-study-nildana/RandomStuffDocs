@@ -1,14 +1,31 @@
-# API Server - Mainly Controllers
+# Random Stuff API Server
 
-This is sort of identical to the API Endpoint (which also has a dedicated API documentation folder and pages). However, here, I want to put more technical details, and talk about code and implementation details. 
+Hello and welcome to the documentation site of the Random Stuff API Server. This is the primary API server that serves JSON data to the Random Stuff App.
 
-There are lot of controllers which are unloaded but still included in the project. This is on purpose.
+In this page, I am mostly talking about the technical side of the API Server.
+
+Repository of this API Server,  [available here](https://github.com/Jay-study-nildana/RandomStuffGenerator)
+
+You can switch to a specific version by switching branches in the repository.
 
 # Table Of Contents
 
 * [Database](Database.md)
 * [Adding New Scopes](AddingNewScopes.md)
 * [Controllers](Controllers/readme.md) 
+* [Classes](Classes/readme.md) 
+* TODO - Technology FrameWork Used
+* TODO - Deployment Instructions
+
+# Deployments
+
+* [API Server](https://randomstuffgeneratorsep23.azurewebsites.net)
+* [React JS App](https://randomstuffreactjsappsept24.azurewebsites.net)
+
+# Related Folders
+
+* [API End Point](../APIEndPoints/readme.md)
+* [Authentication and Authorization - Auth0](../Auth0/readme.md)
 
 # important note 
 

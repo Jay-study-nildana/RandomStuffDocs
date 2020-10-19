@@ -2,41 +2,39 @@
 
 Welcome to the Random Stuff Generator. 
 
-At the point of writing this documentation, it only generates Quotes from famous and not so famous people.
+This is Content Management Solution, CMS for short. The content this software focuses on, are quotes. Something like this.
+
+    "That's what she said"
+
+    - Michael Scott
+
+The project has an API Server (Back End) that serves JSON data. It has a website/web app that consumes this API Server. It also provides an option to login, with multiple user levels. It has an Admin dashboard, to manage quotes. 
 
 Repository of this documentation,  [available here](https://github.com/Jay-study-nildana/RandomStuffDocs)
 
-# TLDR
+You can switch to a specific version by switching branches in the repository.
+
+# TLDR - Purpose of this project
 
 I wanted a full stack project/service/api/app demo to showcase my developer skills and experience. This project is it.
 
 # Table Of Contents
 
+* [Project Idea](projectidea/readme.md)
+* [API Server](APIServer/readme.md)
 * [API End Point](APIEndPoints/readme.md)
-* [API Server Technical](APIServer/readme.md)
-* [Auth0](Auth0/readme.md)
-* [Postman Collections](PostmanCollections/readme.md)
 * [React JS App](ReactJSApp/readme.md)
+* [Authentication and Authorization - Auth0](Auth0/readme.md)
+* [Postman Collections](PostmanCollections/readme.md)
 * [Developer Tools](ToolsandThings.md/readme.md)
 * [Developer Life](developerlife/readme.md)
 * [Other Things](otherfiles/readme.md)
-* [Project Ideas](projectidea/readme.md)
 
 # Current Version - 0.2.0
 
 Read about the current [version here](VersionandChanges.md).
 
-You can switch to a specific version by switching branches in the repository.
-
-# Repositories
-
-* [API Server](https://github.com/Jay-study-nildana/RandomStuffGenerator)
-* [React JS App](https://github.com/Jay-study-nildana/RandomStuffReactJSApp)
-
-# Deployments
-
-* [API Server](https://randomstuffgeneratorsep23.azurewebsites.net)
-* [React JS App](https://randomstuffreactjsappsept24.azurewebsites.net)
+The full version log with all the past version updates is [also available, here](otherfiles/VersionandChangeLog.md).
 
 # Tell Me More
 

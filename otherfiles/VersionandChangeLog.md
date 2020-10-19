@@ -1,17 +1,29 @@
 
 # Version History and Change Log - 0.3.X
 
-Fixes and Updates below.
+The major focus of this version is Quote building and Quote related operations. 
+
+As of now, Quote is a simple object. It has an ID, Title and Content. Thats it. Its very limiting, but this was done on purpose. 0.1.X and 0.2.X were mostly about building the foundation. In fact, the very reason I am starting with 0.X is because the project is very much in beta, and will stay in beta for a long time to come. 
+
+So, the Quote, and some quick points.
+
+* Give additional attributes to Quotes, so they can be managed better. For example, the quote will have a 'approved' property. This property will be set to 'false' by default, when a quote is added. It is assumed, the moderator role, will be the one adding the quote. Later, the Admin role will approve the quote, changing this flag to 'true'. Quotes will only begin showing up in the display for user, after they are approved. 
+* Further, any changes to the quote, will automatically, turn the approval, back to 'false', removing it from circulation, waiting for an Admin Role.
+* Provide endpoints that will allow for adding quotes. Right now, i have a fairly hackable, easy to exploit way of adding quotes. This has to replaced by something that works based on authentication and authorization. 
+* More complex but essential Quote Identifier. As of now, the quote identifier is the default ID generator (1,2,3...) provided by EF Core. That, obviously, wont do. This update will include a specific system that will generate a suitable identifier for each quote. This is also useful when I start linking multiple database tables, which all need to refer to the Quote by its identifier.
+* Use only ever sees the "Quotes in Circulation". Right now, the user has access to the full gamut of quotes in the entire system. This update ensures that the user only gets to see the quotes that are being circulated. 
+* This update also has what is called as a 'history of each Quote', which shows how a Quote came to be, in terms of when it was added, approved, added to circulation, removed from circulation, updates made to it, and so on. 
+* Improved Documentation for React JS App. 
+* Improved Documentation for API Server.
 
 # Major Changes - API Server
 
-* Remove /api/UserNotLoggedIn/PutThemOn. It's a security risk.
-* move all secrets to one single place. make it easy to manage.
+* Introduces the QuoteHistory class. more details at QuoteHistory.md.
 
 # Minor Changes - API Server 
 
-* Something something.
-* Something something.
+* move all secrets to one single place. make it easy to manage.
+* Remove /api/UserNotLoggedIn/PutThemOn. It's a security risk.
 
 # Bug Fixes - API Server
 
@@ -37,8 +49,8 @@ Fixes and Updates below.
 
 # Other Things
 
-* GitHub Pages linking. not up and down linking. just top to bottom, root to leaf.
-* Something something.
+* There was some code related to management API. That has been eliminated from this repository.
+* Some more unneeded code has been removed as is the practice with each version update.
 
 -----------------------------------------------------------------------------------
 
@@ -148,7 +160,7 @@ everything is new. nothing to add.
 
 This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
 
-I can be reached through my website - http://thechalakas.com/
+I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
 
 -----------------------------------------------------------------------------------
 
@@ -195,4 +207,4 @@ Put any specific notes here.
 
 This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
 
-I can be reached through my website - http://thechalakas.com/
+I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
