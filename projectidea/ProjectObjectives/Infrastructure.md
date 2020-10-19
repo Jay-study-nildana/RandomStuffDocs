@@ -1,10 +1,6 @@
-# prettier
+# Infrastructure
 
-I really love this one. 
-
-Available here - https://prettier.io/
-
-I use this to make my code look properly indented. I love to make my code look clean and easy to read.
+Every code that is part of backend and front end, is designed to work with continuos integration and continuous deployment, aka, CICD. As and when I fix bugs, add new features, they become immediatly available to the end user. 
 
 # important note 
 
