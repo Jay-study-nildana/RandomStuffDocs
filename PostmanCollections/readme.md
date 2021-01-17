@@ -2,9 +2,11 @@
 
 Ready to use Postman Collections. The file name corresponds to the version number of the project.
 
-Note : If you are reading on the github pages website (and not the github repo), click here to go directly to the repository folder.
+Update. As of 0.3.0, I am no longer updating postman collections. It's recommended you use the API server's built in Swagger documentation to do test runs.
 
-https://github.com/Jay-study-nildana/RandomStuffGeneratorExperimental/tree/main/Documentation/PostmanCollections/Collections
+Note : If you are reading on the github pages website, you need to see the corresponding github repository page. 
+
+[Return to Main Page](../readme.md)
 
 # important note 
 

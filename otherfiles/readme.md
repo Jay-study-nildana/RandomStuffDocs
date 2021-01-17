@@ -5,7 +5,7 @@ This is where I put other files.
 # Table Of Contents
 
 * [Full Version and Change Log](VersionandChangeLog.md)
-* [Documentation Guidelines](documentationguidelines.md)
+* [Current Deployments](CurrentDeployments.md)
 
 # important note 
 

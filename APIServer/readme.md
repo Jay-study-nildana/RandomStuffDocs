@@ -1,31 +1,18 @@
 # Random Stuff API Server
 
-Hello and welcome to the documentation site of the Random Stuff API Server. This is the primary API server that serves JSON data to the Random Stuff App.
-
-In this page, I am mostly talking about the technical side of the API Server.
-
 Repository of this API Server,  [available here](https://github.com/Jay-study-nildana/RandomStuffGenerator)
 
-You can switch to a specific version by switching branches in the repository.
+# Running Setup (during development)
 
-# Table Of Contents
+* Update Auth0 server details as per your Auth0 Server Configuration
+* Visual Studio 2019
+* Build and Run
+* Swagger will need a auth token. 
+* auth token can be generated on the Auth0 dashboard. 
+* OR, another, simpler option, collect it from the React JS App, developer tools, API Network Calls. 
+* Note : Swagger only needs the bearer token to be copy pasted in the 'lock' symbol. Everything else is already formatted as part of the Swagger configuration.
 
-* [Database](Database.md)
-* [Adding New Scopes](AddingNewScopes.md)
-* [Controllers](Controllers/readme.md) 
-* [Classes](Classes/readme.md) 
-* TODO - Technology FrameWork Used
-* TODO - Deployment Instructions
-
-# Deployments
-
-* [API Server](https://randomstuffgeneratorsep23.azurewebsites.net)
-* [React JS App](https://randomstuffreactjsappsept24.azurewebsites.net)
-
-# Related Folders
-
-* [API End Point](../APIEndPoints/readme.md)
-* [Authentication and Authorization - Auth0](../Auth0/readme.md)
+[Return to Main Page](../readme.md)
 
 # important note 
 

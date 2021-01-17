@@ -1,13 +1,10 @@
-# Tools and Things
+# JMeter Test Scripts and related files.
 
-Here, I want to talk about tools and services that make all the coding and development happen. 
+I have kept JMeter related files in this folder. 
 
-For example, Visual Studio Code. And, Visual Studio 2019 or something online, like, codesandbox.io.
+Note : If you are reading on the github pages website, you need to see the corresponding github repository page. 
 
-# Table Of Contents
-
-* [Postman](Postman.md)
-* [Prettier](prettier.md)
+[Return to Main Page](../readme.md)
 
 # important note 
 
