@@ -1,16 +1,10 @@
-# Admin API Endpoints
+# Current Deployments
 
-Additional notes about API Endpoints. 
+As of this writing (December 27th 2020), I dont have any more live deployments. 
 
-# Access
+Version 0.3.X is introducing some major changes, so, deployment will have to wait.
 
-These endpoints are available to only those with Admin Role. The entire controller is locked behind the policy.
-
-# /api/Admin/Hi
-
-Does a quick check for the Admin role. 
-
-Current Status - Active.
+[Return to Main Page](../readme.md)
 
 # important note 
 

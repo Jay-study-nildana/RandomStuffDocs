@@ -1,27 +1,18 @@
 # React JS App
 
-Details about the react app comes here. 
-
-Hello and welcome to the documentation site of the Random Stuff React JS App.
-
 Repository of this React JS App,  [available here](https://github.com/Jay-study-nildana/RandomStuffReactJSApp)
 
-You can switch to a specific version by switching branches in the repository.
+# Running Setup (during development)
 
-# Table Of Contents
+* Update Auth0 server details as per your Auth0 Server Configuration
+* npm run
+* OR npm start
 
-* [Common Problems and Solutions](ProblemsandSolutions/readme.md)
-* TODO - Technology FrameWork Used
-* TODO - Deployment Instructions
+[Return to Main Page](../readme.md)
 
-# Deployments
+# References
 
-* [API Server](https://randomstuffgeneratorsep23.azurewebsites.net)
-* [React JS App](https://randomstuffreactjsappsept24.azurewebsites.net)
-
-# Related Folders
-
-* [API Server](../APIServer/readme.md)
+* based on the [Auth0 React Sample](https://github.com/auth0-samples/auth0-react-samples)
 
 # important note 
 
