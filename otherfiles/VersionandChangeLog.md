@@ -1,7 +1,44 @@
+# Version History and Change Log - 0.4.0
+
+Also known as ZeroPointThreePointFour in places where numbers are not allowed or string is preferable.
+
+In this version, the focus is on some basic minor improvements. The last two years have not been easy for me, personally and professionally. The pandemic has taken its toll on me. I have tried to relax more, and work a little less. 
+
+So, going forward, version updates will be minor improvements so that i dont burn myself out trying to do too much. 
+
+Further, the primary goal of this project was to be a basics only demo for my students. It is already serving that purpose. So, I am happy with its current state.
+
+Project Overall
+
+* Created a brand new folder called 'RandomStuffForStudents' where I will be putting, linking and documented the many ways students past, present and future, can use this project as their practice project to showcase their skills.
+* updated readme signatures to my latest readme signature which provides clarity on how to get in touch with me. 
+* Previously project was testing only on Visual Studio on Windows. Now, it is tested to run on VSCode on Mac and Windows, Visual Studio on Windows and Mac.
+* Trying to do some visual stuff from this version. There is now a brand new logo when you try to login in the React JS App. It replaces the default logo from Auth0.
+* I have improved the documentation appearance of this version history file.
+
+API Server
+
+* Upgraded the xUnit testing project to dot net 5.0. 
+* Upgraded the main API server project also to dot net 5.0
+* Performed a deployment. The server is now available to view as a live version. Neat.
+
+React JS App
+
+* Performed a deployment. The react js app is now available to view as a live version. Neat.
+* Added a brand new api_config.json file. Earlier, the baseURL had to be updated all over the project. Now, it can be updated in one single file. I should have done this from the beginning. Could have saved me a ton of time.
+* There is now a brand new logo when you try to login in the React JS App. It replaces the default logo from Auth0.
+* Also, I changed the background from the dull black to purple. It looks slightly better I think.
+
+Known Issues
+
+* some tests are failing.
+* error with this - api/Moderator/UpdateExistingQuote, especially from the React JS app. It might be an app, input validation issue.
 
 # Version History and Change Log - 0.3.0
 
 Also known as ZeroPointThreePointZero in places where numbers are not allowed or string is preferable.
+
+This version focuses on API server and related tasks. There are a lot of breaking changes with API endpoints, response JSON types and so on. That means, react app, in its current state will not work fully as it did with 0.2.0. React JS App improvements are planned for upcoming versions.
 
 Changes in this version.
 
@@ -53,18 +90,15 @@ React JS App
 * /api/UserNotLoggedIn/GetHoldOfthem, yes, Available.
 * Focus of 0.3.0 React JS app is to demonstrate that alls APIs are usable. However, the API responses are currently raw JSON. This is on purpose.
 
-Other Notes
-
-* This version focuses on API server and related tasks.
-* There are a lot of breaking changes with API endpoints, response JSON types and so on. That means, react app, in its current state will not work fully as it did with 0.2.0. React JS App improvements are planned for upcoming versions.
-
 # Version History and Change Log - 0.2.0
 
 Also known as ZeroPointTwoPointZero in places where numbers are not allowed or string is preferable.
 
-More details below.
+The initial version (lets call it 0.1.X) that was already deployed had essential things only. A foundational structure that did what it was supposed to do, put the foundation. 
 
-# Major Changes - Project Wide
+This update is a major structural update for the entire project.
+
+Project Wide
 
 * Documentation - I always maintain extensive internal documention that is private for all my development projects. On a public repo update, I go ahead and include a readme with all neccessary details. This update to this repo adds a dedicated documentation folder.
 * Versioning - Every commit and branch will include a dedicated versioning documentation. Apps and Api Server will utilize consistent version number.
@@ -72,7 +106,7 @@ More details below.
 * Authorization - API Server and the Apps now employ authorization by way of roles.
 * GitHub Branches for versions - Version based branches on repository. For every major version upgrade, I plan to maintain a specific branch. It would make it easy to roll back in case of failures, and also provide insight into development of project over time.
 
-# Major Changes - API Server
+API Server
 
 * xUnitTesting - Unit Testing via xUnit is now included in the API Server Project.
 * Test Driven Development is now being followed for API Server development. That means, Dependency Injection coupled with industry standard interface usage.
@@ -83,40 +117,17 @@ More details below.
 * Added /api/TheOthers/claims
 * Added /api/User/Hi
 * Added ​/api​/User​/GetASpecificQuote
-
-# Minor Changes - API Server 
-
 * API EndPoint Re-organized - I have re-organized the APIs internally, so they fall into specific categories, making it easier to use. 
 * /api/RandomQuotes/GetHoldOfthem moved to /api/UserNotLoggedIn/GetHoldOfthem
 * /api/RandomQuotes/PutThemOn moved to /api/UserNotLoggedIn/PutThemOn
 * /api/RandomStuffGeneratorAPIServerDetails/Hi moved to /api/ProjectDetails/Hi
 
-# Bug Fixes - API Server
-
-* no big fixes this time.
-
-# Major Changes - React JS App
+React JS App
 
 * App has been rebuilt from the ground up. Previous version app was a placeholder.
 * Implements all endpoints introduced/upgraded in this version of the API Server
 * Except this endpoint - /api/UserNotLoggedIn/PutThemOn
 * Removed the theme dependency. Uses react strap bootstrap components, avoiding any possible licensing issues. I am not too worried about license but its good to not become married to the theme that was used in 0.1.X
-
-# Minor Changes - React JS App 
-
-* App has been rebuilt. every change is a major change.
-
-# Bug Fixes - React JS App
-
-* App is new. no bug fixes to report.
-
-# Other Things
-
-The initial version (lets call it 0.1.X) that was already deployed had essential things only. A foundational structure that did what it was supposed to do, put the foundation. 
-
-This update is a major structural update for the entire project.
-
------------------------------------------------------------------------------------
 
 # Version History and Change Log - 0.1.0
 
@@ -124,88 +135,21 @@ Also known as ZeroPointOnePointZero in places where numbers are not allowed or s
 
 Project begins.
 
-# Major Changes - Project Wide
+Project Wide
 
 * Project has begun. Have put in a basic API Server and React JS App in place.
 * Setup with continuous deployment with Azure DevOps
 * API Server and React JS App deployed with Azure Web App
 
-# Major Changes - API Server
+API Server
 
 * Added /api/RandomQuotes/GetHoldOfthem 
 * Added /api/RandomQuotes/PutThemOn
 * Added /api/RandomStuffGeneratorAPIServerDetails/Hi
 
-# Minor Changes - API Server
+# Hire Me
 
-everything is new. nothing to add.
-
-# Bug Fixes - API Server
-
-everything is new. nothing to add.
-
-# Major Changes - React JS App
-
-* App will display a random quote on pressing a button
-
-# Minor Changes - React JS App
-
-everything is new. nothing to add.
-
-# Bug Fixes - React JS App
-
-everything is new. nothing to add.
-
-# Other Things
-
-everything is new. nothing to add.
-
-# important note 
-
-This code is provided as is without any warranties. It's primarily meant for my own personal use, and to make it easy for me share code with my students. Feel free to use this code as it pleases you.
-
-I can be reached through my website - [Jay's Developer Profile](https://jay-study-nildana.github.io/developerprofile)
-
------------------------------------------------------------------------------------
-
-# Version History and Change Log - 0.XX.XX
-
-Put any specific notes here.
-
-# Major Changes - API Server
-
-* Something something.
-* Something something.
-
-# Minor Changes - API Server 
-
-* Something something.
-* Something something.
-
-# Bug Fixes - API Server
-
-* Something something.
-* Something something.
-
-# Major Changes - React JS App
-
-* Something something.
-* Something something.
-
-# Minor Changes - React JS App 
-
-* Something something.
-* Something something.
-
-# Bug Fixes - React JS App
-
-* Something something.
-* Something something.
-
-# Other Things
-
-* Something something.
-* Something something.
+I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
 
 # important note 
 

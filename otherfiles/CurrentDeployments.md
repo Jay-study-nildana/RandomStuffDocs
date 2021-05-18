@@ -1,10 +1,20 @@
 # Current Deployments
 
-As of this writing (December 27th 2020), I dont have any more live deployments. 
+As of Version 0.4, deployments are back again. But it's costing me a lot of money to keep these deployments running. Hopefully they are worth it. 
 
-Version 0.3.X is introducing some major changes, so, deployment will have to wait.
+# API server
+
+1. [Version 4.X](https://randomstuffapizeropoint4.azurewebsites.net)
+
+# React JS App
+
+1. [Version 4.X](https://randomstuffreactjsappzeropoint4.azurewebsites.net)
 
 [Return to Main Page](../readme.md)
+
+# Hire Me
+
+I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
 
 # important note 
 

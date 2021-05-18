@@ -2,11 +2,7 @@
 
 Repository of this React JS App,  [available here](https://github.com/Jay-study-nildana/RandomStuffReactJSApp)
 
-# Running Setup (during development)
-
-* Update Auth0 server details as per your Auth0 Server Configuration
-* npm run
-* OR npm start
+Also see - [RandomStuffForStudents](../RandomStuffForStudents/readme.md)
 
 [Return to Main Page](../readme.md)
 

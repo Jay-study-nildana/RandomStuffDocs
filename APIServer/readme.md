@@ -2,17 +2,13 @@
 
 Repository of this API Server,  [available here](https://github.com/Jay-study-nildana/RandomStuffGenerator)
 
-# Running Setup (during development)
-
-* Update Auth0 server details as per your Auth0 Server Configuration
-* Visual Studio 2019
-* Build and Run
-* Swagger will need a auth token. 
-* auth token can be generated on the Auth0 dashboard. 
-* OR, another, simpler option, collect it from the React JS App, developer tools, API Network Calls. 
-* Note : Swagger only needs the bearer token to be copy pasted in the 'lock' symbol. Everything else is already formatted as part of the Swagger configuration.
+Also see - [RandomStuffForStudents](../RandomStuffForStudents/readme.md)
 
 [Return to Main Page](../readme.md)
+
+# Hire Me
+
+I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
 
 # important note 
 

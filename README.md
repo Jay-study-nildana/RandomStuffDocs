@@ -10,27 +10,31 @@ You know quotes.
 
 This project is a Content Management Solution (CMS). The content in this situation are the above mentioned 'quotes'. 
 
-* API Server (Back End) that serves JSON data. (built using .NET Core)
-* Front End Client website/WebApp that consumes this API Server. (built using React JS)
-* OAuth 2 Authentication and Authorization(built using Auth0)
-* Continuous Integration and Continous Deployment. (built using Azure Web Apps + Azure DevOps)
-* Stress Testing (performed using JMeter)
+# Table Of Contents
 
-Repository of this documentation,  [available here](https://github.com/Jay-study-nildana/RandomStuffDocs)
+1. [API Server](APIServer/readme.md)
+1. [React JS App](ReactJSApp/readme.md)
+1. [Postman Collections](PostmanCollections/readme.md)
+1. [JMeter Files](JMeter/readme.md)
+1. [Current Deployments](otherfiles/CurrentDeployments.md)
+1. [RandomStuffForStudents](RandomStuffForStudents)
+1. [Documentation Repository](https://github.com/Jay-study-nildana/RandomStuffDocs)
 
 You can switch to a specific version by switching branches in the repository.
 
-# Table Of Contents
+# For Students
 
-* [API Server](APIServer/readme.md)
-* [React JS App](ReactJSApp/readme.md)
-* [Postman Collections](PostmanCollections/readme.md)
-* [JMeter Files](JMeter/readme.md)
-* [Current Deployments](otherfiles/CurrentDeployments.md)
+This section is specifically for my students. Head over here - [RandomStuffForStudents](RandomStuffForStudents)
 
-# Current Version - 0.3.0
+The students contains detaield articles about errors, troubleshooting, and deployment and lot more notes. Definitely check it out.
+
+# Current Version - 0.4.0
 
 The full version history [available, here](otherfiles/VersionandChangeLog.md).
+
+# Hire Me
+
+I work as a full time freelance software developer and coding tutor. Hire me at [UpWork](https://www.upwork.com/fl/vijayasimhabr) or [Fiverr](https://www.fiverr.com/jay_codeguy). 
 
 # important note 
 
