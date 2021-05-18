@@ -1,6 +1,6 @@
 # Version History and Change Log - 0.4.0
 
-Also known as ZeroPointThreePointFour in places where numbers are not allowed or string is preferable.
+Also known as ZeroPointFourPointZero in places where numbers are not allowed or string is preferable.
 
 In this version, the focus is on some basic minor improvements. The last two years have not been easy for me, personally and professionally. The pandemic has taken its toll on me. I have tried to relax more, and work a little less. 
 
